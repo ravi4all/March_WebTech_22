@@ -1,51 +1,71 @@
 <!-- Document Type HTML -->
-<!-- We are telling our browser that we are using HTML version 5 -->
+<!-- to tell our browser that we are using HTML Version 5 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- To support multiple languages like hindi, english, chinese, punjabi... -->
     <meta charset="UTF-8">
     <!-- meta - data about data -->
     <!-- charset - character set -->
-    <!-- UTF - Unicode/Universal Text Format -->
-    <!-- 8 bit = 1 byte -->
+    <!-- UTF - Universal Text Format -->
+    <!-- 8 - bit -> 1 byte - read one character at a time -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- To support Internet Explorer Edge -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport - area where web page is visible -->
     <title>Document</title>
 </head>
 <body>
 
-    <!-- Heading Tags -->
-    <!-- h1*6 -->
-    <!-- h$*6 -->
-    <!-- h${This is heading_$}*6 -->
-    <h1>This is heading_1</h1>
-    <h2>This is heading_2</h2>
-    <h3>This is heading_3</h3>
-    <h4>This is heading_4</h4>
-    <h5>This is heading_5</h5>
-    <h6>This is heading_6</h6>
+    <h1>List in HTML</h1>
 
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In neque temporibus quidem numquam cupiditate necessitatibus nisi ab cum animi. Nam magnam magni tempore est nostrum, blanditiis ipsam accusantium provident beatae?
-    </p>
-
-    <!-- a - anchor tag - hyper links -->
-    <!-- href - hyper reference -->
-    <a href="https://www.google.com" target="_blank">Visit Google</a>
-    <a href="https://www.google.com" target="_self">Visit Google</a>
-    <a href="https://www.google.com" target="_top">Visit Google</a>
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>This is list item</li>
+        <li>This is list item</li>
+        <li>
+            This is list item
+            <ol>
+                <li>This is nested item</li>
+                <li>This is nested item</li>
+                <li>This is nested item</li>
+                <li>This is nested item</li>
+                <li>This is nested item</li>
+                <li>This is nested item</li>
+            </ol>
+        </li>
+        <li>This is list item</li>
+        <li>This is list item</li>
+        <li>This is list item</li>
+    </ol>
 
     <hr>
 
-    <!-- src - source
-    alt - alternate text -->
-    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MHKK3?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1603649004000" height="300" width="250" alt="Apple Iphone 12">
+    <h2>Unordered List</h2>
+    <ul>
+        <li>This is unordered list item_1</li>
+        <li>This is unordered list item_2</li>
+        <li>This is unordered list item_3</li>
+        <li>This is unordered list item_4</li>
+        <li>This is unordered list item_5</li>
+        <li>This is unordered list item_6</li>
+    </ul>
 
-    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MHKK3?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1603649004000" height="300" width="250" alt="Apple Iphone 12">
+    <hr>
 
-    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MHKK3?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1603649004000" height="300" width="250" alt="Apple Iphone 12">
+    <h2>Description List</h2>
+    <dl>
+        <!-- data title -->
+        <dt>HTML</dt>
+        <dd>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quam illo dignissimos mollitia ut suscipit sed eos ipsum perspiciatis cupiditate dolores culpa, at excepturi voluptas magnam sit tempora harum veritatis.
+        </dd>
 
-    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MHKK3?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1603649004000" height="300" width="250" alt="Apple Iphone 12">
+        <dt>CSS</dt>
+        <dd>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia maiores odio quos esse? Aspernatur reiciendis incidunt cupiditate, dicta explicabo, illo iste nulla nesciunt ipsam, provident ducimus rem facilis quasi magnam.
+        </dd>
+    </dl>
     
 </body>
 </html>
