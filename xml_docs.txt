@@ -1,0 +1,54 @@
+XML - Xtensible Markup Language
+- tag based language
+- derived from SGML - Standard Generalized Markup Language
+- XML uses DTD - Document Type Definition
+
+
+Features of XML
+- platform and language independent
+- self descriptive tags
+- tags are not predefined
+- we create custom tags
+- used to carry data, exchange data from client to server or server to server
+
+XML Syntax
+
+XML Rules and Regulations - Declaration rules
+- always declare xml version
+- xml declaration is case sensitive
+- it must start with lowercase
+- parent <xml> tag has no closing tag
+
+XML Attributes
+
+XML Entities
+- a way to represent special character like &, %, <, >
+
+XML Namespaces
+- it helps to avoid element name conflicts
+
+<elemName xmlns:name="URL">
+xmlns - xml namespace
+name - prefix of namespace
+URL - namespace identifier
+
+
+XML Parsers
+- kind of a software library that provides interface to work with XML documents
+- it checks whether XML document is valid or not
+- it checks whether format of XML document is correct
+
+SAX - Simple API for XML
+- It's an API - Application Programming Interface for parsing XML documents
+
+DOM - Document Object Model
+- used to hierarchical structuring of tags
+
+
+
+
+
+
+
+
+

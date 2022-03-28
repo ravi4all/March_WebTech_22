@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- <parent>
+    <child>
+        <grandchild> </grandchild>
+    </child>
+</parent> -->
+
+<company name="Brain Mentors" address="Delhi">
+    <name>Ravi</name>
+    <address>Delhi &amp; Ghaziabad</address>
+</company>
+
+<com:company xmlns:com="https://www.brain-mentors.com">
+    <com:about>Training Company</com:about>
+    <com:address>Rohini, Delhi</com:address>
+</com:company>
+
+
+<x:college name="BPIT" xmlns:x="https://www.brain-mentors.com">
+    <x:student>
+        <x:name>Ram</x:name>
+        <x:address>Rithala</x:address>
+    </x:student>
+
+    <x:student>
+        <x:name>Shyam</x:name>
+        <x:address>Rithala</x:address>
+    </x:student>
+
+    <x:student>
+        <x:name>Aman</x:name>
+        <x:address>Rohini</x:address>
+    </x:student>
+<x:college>
+
+<y:college name="BPIT" xmlns:y="https://www.brain-mentors.com">
+    <y:student>
+        <y:name>Ram</y:name>
+        <y:address>Rithala</y:address>
+    </y:student>
+
+    <y:student>
+        <y:name>Shyam</y:name>
+        <y:address>Rithala</y:address>
+    </y:student>
+
+    <y:student>
+        <y:name>Aman</y:name>
+        <y:address>Rohini</y:address>
+    </y:student>
+<y:college>
+
+
